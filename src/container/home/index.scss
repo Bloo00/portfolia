@@ -1,18 +1,21 @@
 * {
  margin: auto;
- font-family: 'Heebo', sans-serif;
+ font-family: 'Source Code Pro', monospace;
  background-color: #000;
  padding: 0;
  z-index: 3;
 }
-
+.container {
+  display: flex;
+  flex-direction: column;
+}
 .nav-wrapper {
   display: flex;
   top:0;
   width: 100%;
   justify-content: space-between;
   font-size: xx-large;
-  color:#FFFFE0;
+  color:#eee;
 }
 
 .moon {
@@ -45,14 +48,6 @@
   justify-content: space-around;
   z-index: 4;
 }
-
-.thingy {
-  font-size: xx-large;
-  color:#FFFFE0;
-  z-index: 5;
-}
-
-
 
 @keyframes move-clouds-back {
   from {background-position: 0 0;}

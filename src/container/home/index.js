@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 
 import "./index.scss";
-import "../navStuff/contact.scss"
-import "../navStuff/menu.scss"
+import "../cssStuff/contact.scss"
+import "../cssStuff/menu.scss"
+import "../cssStuff/body.scss"
 
 
 export default class Home extends Component {
@@ -26,18 +27,22 @@ export default class Home extends Component {
                                     <div className="top"></div>
                                 </div>
                             </div>
-
                             <div className="menu">
                                 <div className="menu-line"></div>
                                 <div className="menu-line"></div>
                                 <div className="menu-line"></div>
                             </div>
-
                         </div>
+                    
+                    
+                    </div>
+
+                    <div className="word-container">
+                        <div className="hello">hello from,</div>
+                        <div className="name">/KABIN YANG</div>
+                        <div className="desc">{'\u00A0'}{'\u00A0'}A web developer/designer from Southern Califonia. Working on creating cute websites for all too see. Most importantly trying to become a Coder Extrodinair</div>
                     </div>
                 </div>
-                <div className="title-name">Kabin Yang</div>
-                <div className="thingy">Kabin</div>
 
                 <div className="stars"></div>
                 <div className="twinkling"></div>

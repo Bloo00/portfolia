@@ -1,26 +1,47 @@
 import React, { Component } from "react";
 
-import "./index.css";
+import "./index.scss";
+import "../navStuff/contact.scss"
+import "../navStuff/menu.scss"
 
-import Burger from "../burger";
 
 export default class Home extends Component {
     render() {
         return (
             <>
-            <Burger/>
-            <div className="container">
-                <div classname="summary">summary</div>
-                <div className="myface"><img src="https://cdn.discordapp.com/attachments/767642235293532160/959626838953574520/unknown.png" alt="my face"/></div>
-                <div className="aboutme_container">
-                    <div className="aboutme_title">title</div>
-                    <div className="aboutme_meat">meat</div>
-                    {/* <div classname="summary">A creative and motivated full-stack developer with a background in culinary arts, who is passionate about software development. Hard-working and always open to exciting new experiences. Archery and trumpet enthusiast.</div> */}
+                <div className="container">
+                    <div className="nav-wrapper">
+                        <div className="my-name-wrapper"><div id="name">Kabin Yang</div></div>
+                        <button className="moon"></button>
+                        <div className="contact-burger-holder">
+
+                            <div className="contact">
+                                <div classname="envelope">
+                                    <div className="letter">
+                                        <div className="line blank"></div>
+                                        <div className="line"></div>
+                                        <div className="line"></div>
+                                        <div className="line"></div>
+                                    </div>
+                                    <div className="top"></div>
+                                </div>
+                            </div>
+
+                            <div className="menu">
+                                <div className="menu-line"></div>
+                                <div className="menu-line"></div>
+                                <div className="menu-line"></div>
+                            </div>
+
+                        </div>
+                    </div>
                 </div>
-                <div className="links_container">
-                    <div></div>
-                </div>
-            </div>
+                <div className="title-name">Kabin Yang</div>
+                <div className="thingy">Kabin</div>
+
+                <div className="stars"></div>
+                <div className="twinkling"></div>
+                <div className="clouds"></div>
             </>
         )
     }

@@ -1,0 +1,45 @@
+.contact {
+    margin: auto;
+    margin-right: 10px;
+}
+
+.top {
+    height: 0;
+    width: 0;
+    border-radius: 3px;
+    border-left: 25px solid white;
+    border-right: 25px solid rgb(255, 251, 251);
+    border-bottom: 15px solid rgb(247, 246, 246);
+    border-top: 15px solid #483475;
+    cursor: pointer;
+}
+
+.letter {
+    display: none;
+}
+
+
+.top:hover {
+    .letter {
+        height: 40px;
+        width: 40px;
+        background-color: wheat;
+        border-radius: 3px;
+    }
+    
+    .line {
+        padding-top: 1px;
+        margin-top: 5px;
+        height: 1px;
+        width: 37px;
+        border-radius: 3px;
+        background-color: lightgray;
+        border: 2px color black;
+    }
+    
+    .blank { 
+        background-color: wheat;
+    }
+}
+
+

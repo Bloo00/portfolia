@@ -39,8 +39,9 @@ export default class Home extends Component {
 
                     <div className="word-container">
                         <div className="hello">hello from,</div>
-                        <div className="name">/KABIN YANG</div>
-                        <div className="desc">{'\u00A0'}{'\u00A0'}A web developer/designer from Southern Califonia. Working on creating cute websites for all too see. Most importantly trying to become a Coder Extrodinair</div>
+                        <div className="name">KABIN YANG</div>
+                        <div className="desc">A web developer/designer from Southern Califonia. Working on createing cute and unique websites for all too see. Most importantly trying to become a ... </div>
+                        <div className="italic-boom">Coder Extraordinaire!</div>
                     </div>
                 </div>
 

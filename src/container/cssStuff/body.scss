@@ -6,22 +6,23 @@
 .name{
     font-size: 50px;
     color:#FFFFE0;
-    background: -webkit-linear-gradient(#eee, #333);
+    background: -webkit-linear-gradient(#eee, grey);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    text-shadow: 10px 10px 10px rgba(0,0,0,0);
+    text-shadow: 10px 10px 10px rgba(100,100,100,100);
   
     display: block;
     position: relative;
   }
   
 
-.desc, .hello {
+.desc, .hello, .italic-boom  {
     font-size: 15px;
     margin-top: 3%;
     color: #eee;
     max-width: 50%;
     background-color: transparent;
+    text-align: center;
 }
 
 .hello{
@@ -29,3 +30,8 @@
     margin-top: 200px;
 }
 
+.italic-boom {
+    font-family: 'Source Code Pro', monospace;
+    font-style: italic;
+    font-size: 15px;
+}

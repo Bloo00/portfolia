@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 
 import "./index.scss";
-import "../cssStuff/contact.scss"
-import "../cssStuff/menu.scss"
 import "../cssStuff/body.scss"
+import "../cssStuff/background.scss"
 
+import Nav from "../nav/nav";
 
 export default class Home extends Component {
     render() {
@@ -16,7 +16,7 @@ export default class Home extends Component {
                         <button className="moon"></button>
                         <div className="contact-burger-holder">
 
-                            <div className="contact">
+                            <a className="contact" href="/contact">
                                 <div classname="envelope">
                                     <div className="letter">
                                         <div className="line blank"></div>
@@ -26,16 +26,15 @@ export default class Home extends Component {
                                     </div>
                                     <div className="top"></div>
                                 </div>
-                            </div>
+                            </a>
                             <div className="menu">
                                 <div className="menu-line"></div>
                                 <div className="menu-line"></div>
                                 <div className="menu-line"></div>
                             </div>
                         </div>
-                    
-                    
                     </div>
+
 
                     <div className="word-container">
                         <div className="hello">hello from,</div>

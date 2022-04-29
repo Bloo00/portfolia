@@ -1,0 +1,11 @@
+.contact-container {
+    z-index: 10;
+    background-color: transparent;
+}
+
+.title {
+    background-color: aqua;
+    border: 2px;
+    padding: 100px;
+}
+

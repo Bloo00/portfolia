@@ -9,6 +9,7 @@ import {
 
 
 import Home from "./container/home";
+import Contact from "./container/contactPage/contact";
 
 class App extends Component {
   render() {
@@ -18,6 +19,7 @@ class App extends Component {
         <div>
           <Routes>
             <Route exact path="/" element={<Home/>} />
+            <Route path='/Contact' element={<Contact/>} />
           </Routes>
         </div>
       </Router>

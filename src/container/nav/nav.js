@@ -2,13 +2,14 @@ import React, { Component } from "react";
 
 import "./menu.scss"
 import "./contact.scss"
+import "./name.css"
 
 export default class Nav extends Component {
     render() {
         return (
             <>
                 <div className="nav-wrapper">
-                    <div className="my-name-wrapper"><div id="name">Kabin Yang</div></div>
+                    <a className="no-underscore"href="/"><div className="top-name">Kabin Yang</div></a>
                     <button className="moon"></button>
                     <div className="contact-burger-holder">
 

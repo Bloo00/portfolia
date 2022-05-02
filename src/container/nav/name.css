@@ -1,0 +1,12 @@
+div.top-name {
+    border: none;
+    padding:none;
+    color: transparent;
+    font-size: smaller;
+    color: antiquewhite;
+}
+
+
+.no-underscore {
+    text-decoration: none;
+}

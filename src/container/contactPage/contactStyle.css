@@ -1,11 +1,24 @@
 .contact-container {
-    z-index: 10;
     background-color: transparent;
+    font-family: 'Source Code Pro', monospace;
+    display: grid;
 }
 
 .title {
-    background-color: aqua;
+    position: relative;
     border: 2px;
     padding: 100px;
+    color: white;
+    background-color: transparent;
+    font-size: xx-large;
 }
 
+.meat {
+    position: relative;
+    background-color: transparent;
+    color: white;
+}
+
+.stars .clouds .twinkling {
+    z-index: 0;
+}

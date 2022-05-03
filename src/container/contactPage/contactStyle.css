@@ -10,30 +10,35 @@
     padding: 100px;
     color: antiquewhite;
     background-color: transparent;
-    font-size: xx-large;
+    font-size: 50px;
+    margin-top: 60px;
 }
 
 .meat {
     position: relative;
     background-color: transparent;
     color: antiquewhite;
-    max-width: 500px;
+    max-width: 700px;
+    font-size: 35px;
 }
 
 .stars .clouds .twinkling {
     z-index: 0;
 }
 
-.my-info {
+.my-info ,.email, .email-click, .phone-number {
     margin-top: 50px;
     display: grid;
     background-color: transparent;
-    max-width: 500px;
+    max-width: 700px;
     color: antiquewhite;
+    font-size: 35px;
+    text-align: center;
 }
 
 .email-link {
-    color: antiquewhite;
+    color: lightyellow;
     text-decoration: none;
+    text-emphasis: bold;
     position: relative;
 }

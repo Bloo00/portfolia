@@ -10,6 +10,7 @@ import {
 
 import Home from "./container/home";
 import Contact from "./container/contactPage/contact";
+import Burger from "./container/burger";
 
 class App extends Component {
   render() {
@@ -19,7 +20,8 @@ class App extends Component {
         <div>
           <Routes>
             <Route exact path="/" element={<Home/>} />
-            <Route path='/Contact' element={<Contact/>} />
+            <Route path='/contact' element={<Contact/>} />
+            <Route path='/menu' element={<Burger/>} />
           </Routes>
         </div>
       </Router>

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import "./index.scss";
+import "./style.scss";
 import "../cssStuff/body.scss"
 import "../cssStuff/background.scss"
 
@@ -23,6 +23,8 @@ export default class Home extends Component {
                 <div className="stars"></div>
                 <div className="twinkling"></div>
                 <div className="clouds"></div>
+
+                
             </>
         )
     }

@@ -4,7 +4,7 @@
 }
 
 .name{
-    font-size: 50px;
+    font-size: 100px;
     color:#FFFFE0;
     background: -webkit-linear-gradient(#eee, grey);
     -webkit-background-clip: text;
@@ -17,7 +17,8 @@
   
 
 .desc, .hello, .italic-boom  {
-    font-size: 15px;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 30px;
     margin-top: 3%;
     color: #eee;
     max-width: 50%;
@@ -26,12 +27,12 @@
 }
 
 .hello{
-    font-size: 13px;
+    font-size: 25px;
     margin-top: 200px;
 }
 
 .italic-boom {
     font-family: 'Source Code Pro', monospace;
     font-style: italic;
-    font-size: 15px;
+    font-size: 35px;
 }

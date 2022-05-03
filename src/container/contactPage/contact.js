@@ -14,11 +14,21 @@ export default class Contact extends Component {
                 <Nav />
                 
                 <div className="title">In a Town Far Far away!~</div>
-                <div className="meat">Would be a Me but...
-                If we were neighbors you could just come talk to me but we arnt so
-                this is our next best option. Unless you wanna mail me stuff but thats whack.
+
+                <div className="meat">
+                    Would be a Me but...
+                    If we were neighbors you could just come talk to me but we arnt so
+                    this is our next best option. Unless you wanna mail me stuff but thats whack.
                 </div>
 
+                <div className="my-info">
+
+                    <div className="email-click"> So to get ahold of me you can either click 
+                    <a className="email-link" href="mailto:work.KabinYang@gmail.com">here</a></div>
+                                                        <br/>
+                    <div className="email">email me @ work.KabinYang@gmail.com</div>
+                    <div className="phone-number">Phone Number:(808) 670-0687 </div>
+                </div>
 
                 
                 <div className="stars"></div>

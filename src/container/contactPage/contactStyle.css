@@ -8,7 +8,7 @@
     position: relative;
     border: 2px;
     padding: 100px;
-    color: white;
+    color: antiquewhite;
     background-color: transparent;
     font-size: xx-large;
 }
@@ -16,9 +16,24 @@
 .meat {
     position: relative;
     background-color: transparent;
-    color: white;
+    color: antiquewhite;
+    max-width: 500px;
 }
 
 .stars .clouds .twinkling {
     z-index: 0;
+}
+
+.my-info {
+    margin-top: 50px;
+    display: grid;
+    background-color: transparent;
+    max-width: 500px;
+    color: antiquewhite;
+}
+
+.email-link {
+    color: antiquewhite;
+    text-decoration: none;
+    position: relative;
 }

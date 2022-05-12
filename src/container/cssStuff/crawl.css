@@ -1,0 +1,26 @@
+.word-container{
+ background-color: transparent;
+ display: flex;
+ height: 800px;
+ perspective: 400px;
+ letter-spacing: 6px;
+ line-height: 150%;
+ text-align: center;
+}
+
+.crawl {
+  position: relative;
+  transform-origin: 50% 100%;
+  animation: crawl 200s linear;
+}
+
+@keyframes crawl {
+  0% {
+    top: 0;
+    transform: rotateX(20deg) translateZ(0);
+  }
+  100% {
+    top: -6000px;
+    transform: rotateX(25deg) translateZ(-2000px);
+  }
+}
